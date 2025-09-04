@@ -176,7 +176,7 @@ class AppTheme {
     return CardTheme(
       clipBehavior: Clip.antiAlias,
       color: backgroundColor,
-      shadowColor: secondaryTextColor.withValues(alpha: 0.2),
+      shadowColor: secondaryTextColor.withOpacity(alpha: 0.2),
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(8.0),
       ),
